@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MobileTest"
              x:Class="MobileTest.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Texto de Ejemplo de la Aplicación" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
