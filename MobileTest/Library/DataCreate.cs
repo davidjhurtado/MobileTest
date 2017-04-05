@@ -9,5 +9,7 @@ namespace Library
     public static class DataCreate
     {
 
+        public DataCreate() {
+        }
     }
 }
