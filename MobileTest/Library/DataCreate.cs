@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public static class DataCreate
+    public  class DataCreate
     {
 
         public DataCreate() {
