@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:MobileTest"
              x:Class="MobileTest.MainPage">
 
-	<Label Text="Texto de Ejemplo de la Aplicación" 
+	<Label Text="Texto de Ejemplo de la Aplicación.." 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
+    <Button Text="Click me!!" />
 </ContentPage>
