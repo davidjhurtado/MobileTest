@@ -26,5 +26,22 @@ namespace MobileTest
         {
             return _database.Table<Cliente>().Where(i => i.ConsecutivoCompania == conseccutivocompania).Where(c => c.Codigo== codigo).FirstOrDefaultAsync();
         }
+
+        public Task<int> SaveItemAsync(Cliente cliente)
+        {
+            if (cliente.Codigo  != "")
+            {
+                return _database.UpdateAsync(cliente);
+            }
+            else
+            {
+                return _database.InsertAsync(cliente);
+            }
+        }
+
+        public Task<int> DeleteItemAsync(Cliente cliente)
+        {
+            return _database.DeleteAsync(cliente);
+        }
     }
 }
